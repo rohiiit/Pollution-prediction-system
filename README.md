@@ -11,24 +11,24 @@ Pollution prediction is the practice of predicting the value of air pollutants f
 The dataset used in this project provides the value of pollutants based on basic weather information (temperature and humidity) 
 and the input values of 5 sensors. It is derived from Kaggle: https://www.kaggle.com/c/tabular-playground-series-jul-2021/data. 
 There are 7111 records in the dataset. The data is cleaned and split into a training set (60%) ,a validation set(20%),
-a testing set (20%). There are a total of twelve features in the dataset. .
+a testing set (20%). There are a total of twelve features in the dataset. 
 
 # Dataset Format
 
 The dataset must be in a CSV file formatted exactly as the
 values in the tables below.  
-1.	Date - Date and time of the record measurement
-2.	Deg_C - Temperature in Celcius
-3.	Relative Humidity - Relative humidity is the percentage of the current absolute humidity to the highest possible absolute humidity
+1.	Date - Date and time of the record measurement.
+2.	Deg_C - Temperature in Celcius.
+3.	Relative Humidity - Relative humidity is the percentage of the current absolute humidity to the highest possible absolute humidity.
 4.	Absolute Humidity - Absolute humidity is the mass of water vapor divided by the mass of dry air in a volume of air at a given temperature.
 5.	Sensor_1 - (tin oxide) hourly averaged sensor response (nominally CO targeted)
 6.	Sensor_2 - (titania) hourly averaged sensor response (nominally NMHC targeted)
 7.	Sensor_3 - (tungsten oxide) hourly averaged sensor response (nominally NOx targeted)
 8.	Sensor_4 - (tungsten oxide) hourly averaged sensor response (nominally NO2 targeted)
 9.	Sensor_5 - (indium oxide) hourly averaged sensor response (nominally O3 targeted)
-10.	Target_Carbon_Monooxide - Amount of Carbon Monoxide in air, which we need to predict 
-11.	Target_Benzene - Amount of Benzene in air, which we need to predict
-12.	Target_nitrogen_oxide - Amount of Nitrogen Oxide in air, which we need to predict
+10.	Target_Carbon_Monooxide - Amount of Carbon Monoxide in air, which we need to predict. 
+11.	Target_Benzene - Amount of Benzene in air, which we need to predict.
+12.	Target_nitrogen_oxide - Amount of Nitrogen Oxide in air, which we need to predict.
 
 
 
@@ -42,7 +42,7 @@ values in the tables below.
 
 # Evaluation
 
-Continuous forecasts are evaluated with sklearn regression metrics.Models for linaer regression, 
-polynomial regression, random forest and neural networks are saved.
+Continuous forecasts are evaluated with sklearn regression metrics models for Linear Regression, 
+Polynomial Regression, Random Forest and Neural Networks are saved.Thus, the models can be used to predict on the test data saving the training time.   
 The RMSLE will be the primary scoring metric for pollution predictions.
-Other metrics used are: MAE, MAPE, RMSE, R-squared
+Other metrics used are: MAE, MAPE, RMSE, R-squared.
