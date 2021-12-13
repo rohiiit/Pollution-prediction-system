@@ -43,6 +43,6 @@ values in the tables below.
 # Evaluation
 
 Continuous forecasts are evaluated with sklearn regression metrics models for Linear Regression, 
-Polynomial Regression, Random Forest and Neural Networks are saved.Thus, the models can be used to predict on the test data saving the training time.   
+Polynomial Regression, Random Forest and Neural Networks are saved respectively. Thus, the models can be used to predict on the test data saving the time to train the entire dataset for each model.  
 The RMSLE will be the primary scoring metric for pollution predictions.
 Other metrics used are: MAE, MAPE, RMSE, R-squared.
