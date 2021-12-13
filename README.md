@@ -44,5 +44,5 @@ values in the tables below.
 
 Continuous forecasts are evaluated with sklearn regression metrics.Models for linaer regression, 
 polynomial regression, random forest and neural networks are saved.
-The RMSE will be the primary scoring metric for pollution predictions.
+The RMSLE will be the primary scoring metric for pollution predictions.
 Other metrics used are: MAE, MAPE, RMSE, R-squared
