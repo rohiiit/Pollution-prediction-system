@@ -1,6 +1,10 @@
 # Pollution-prediction-system
 
-[![made-with-python](https://img.shields.io/badge/Made%20with-Python-173680.svg)](https://www.python.org/)
+
+[![](https://img.shields.io/badge/Made_with-Python3-red?style=for-the-badge&logo=python)](https://www.python.org/ "Python3")
+[![](https://img.shields.io/badge/Made_with-Keras-red?style=for-the-badge&logo=keras)](https://www.python.org/ "Python3")
+[![](https://img.shields.io/badge/Made_with-Scikit_Learn-red?style=for-the-badge&logo=scikit-learn)](https://www.vue.js/ "Vue.js")
+
 
 # Overview
 Pollution prediction is the practice of predicting the value of air pollutants for a given location based on different weather parameters. Pollution prediction is done by gathering data about the current state of the atmosphere. Pollution information is essential in every facet of life like agriculture, tourism, airport system, mining industry, and power generation. Hence, prediction pollution adequately is very necessary, here we are using different supervised machine learning techniques to process datasets that can learn and make predictions more effectively based on basic weather information. The pollution prediction system is modeled as a regression problem that is for different weather parameters, finding a continuous value of pollutants over time. A lot of factors affecting the pollutants were hidden, which were extracted to improve the prediction of pollutants.
