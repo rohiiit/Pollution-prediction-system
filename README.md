@@ -46,3 +46,12 @@ Continuous forecasts are evaluated with sklearn regression metrics models for Li
 Polynomial Regression, Random Forest and Neural Networks are saved respectively. Thus, the models can be used to predict on the test data saving the time to train the entire dataset for each model.  
 The RMSLE will be the primary scoring metric for pollution predictions.
 Other metrics used are: MAE, MAPE, RMSE, R-squared.
+
+------------------------------------------
+
+### Note:
+- This project was created for DS5220 Supervised Machine Learning
+
+------------------------------------------
+
+##### Made with :heart: by [@rohiiit](https://github.com/rohiiit), [@Rajdoshi99](https://github.com/Rajdoshi99) and [@Tushita-Gupta](https://github.com/Tushita-Gupta) and 
