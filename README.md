@@ -3,7 +3,7 @@
 # Overview
 Pollution prediction is the practice of predicting the value of air pollutants for a given location based on different weather parameters. Pollution prediction is done by gathering data about the current state of the atmosphere. Pollution information is essential in every facet of life like agriculture, tourism, airport system, mining industry, and power generation. Hence, prediction pollution adequately is very necessary, here we are using different supervised machine learning techniques to process datasets that can learn and make predictions more effectively based on basic weather information. The pollution prediction system is modeled as a regression problem that is for different weather parameters, finding a continuous value of pollutants over time. A lot of factors affecting the pollutants were hidden, which were extracted to improve the prediction of pollutants.
 
-
+------------------------------------------
 
 # Data
 
@@ -12,6 +12,8 @@ The dataset used in this project provides the value of pollutants based on basic
 and the input values of 5 sensors. It is derived from Kaggle: https://www.kaggle.com/c/tabular-playground-series-jul-2021/data. 
 There are 7111 records in the dataset. The data is cleaned and split into a training set (60%) ,a validation set(20%),
 a testing set (20%). There are a total of twelve features in the dataset. 
+
+------------------------------------------
 
 # Dataset Format
 
@@ -39,6 +41,7 @@ values in the tables below.
 
 
 
+------------------------------------------
 
 # Evaluation
 
@@ -54,4 +57,4 @@ Other metrics used are: MAE, MAPE, RMSE, R-squared.
 
 ------------------------------------------
 
-##### Made with :heart: by [@rohiiit](https://github.com/rohiiit), [@Rajdoshi99](https://github.com/Rajdoshi99) and [@Tushita-Gupta](https://github.com/Tushita-Gupta) and 
+##### Made with :heart: by [@rohiiit](https://github.com/rohiiit), [@Rajdoshi99](https://github.com/Rajdoshi99) and [@Tushita-Gupta](https://github.com/Tushita-Gupta)
