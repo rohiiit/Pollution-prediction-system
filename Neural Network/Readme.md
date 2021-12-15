@@ -23,9 +23,15 @@ To train fromscartch you would need to mount the notebook on drive.
 
 Why did we need to mount it on drive? Well the program is saving the model. So you won't need to train again to access it
 
+After mounting it on drive, 
+- create a folder in google drive, upload the training and testing files.
+- update the *DATA_DIR* in the second cell to your folder path 
+- - eg 'DATA_DIR = '/content/drive/MyDrive/your_path'
+- Now you're all set to train the model
+
 ------------------------------------------
 
-# Evaluation
+# Using pre-trained model
 
 
 
