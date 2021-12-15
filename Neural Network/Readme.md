@@ -35,7 +35,7 @@ Your models will get saved in the data_dir you just made.
 
 # Using pre-trained model
 
-If are looking to use the pretrained model, simply download the above 2 models and use this [drive link](https://drive.google.com/drive/folders/106KPVoYnHHfnh0ulC1D00xislzHxf1aK?usp=sharing) to get the nitrogen model
+If are looking to use the pretrained model, simply download the 2 models and use this [drive link](https://drive.google.com/drive/folders/106KPVoYnHHfnh0ulC1D00xislzHxf1aK?usp=sharing) to get the model for nitrogen. After extracting it paste it in the models folder.
 Like in the previous step, upload the model in a folder and change the data_dir. 
 
 
@@ -44,4 +44,4 @@ Your pre-trained models should have a DATA_DIR as
 - `/content/drive/MyDrive/'your_path'/Models/Benzene`
 - `/content/drive/MyDrive/'your_path'/Models/Nitrogen`
 
-
+Now you can simply run all the cells
