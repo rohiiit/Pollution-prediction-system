@@ -19,8 +19,8 @@ To train fromscartch you would need to mount the notebook on drive.
 - Simply run the first cell, a pop up will come up
 - allow colab to make changes in the drive
 - a id will get generated, simply copy it and paste it in the dialog box in google colab.
-
 Why did we need to mount it on drive? Well the program is saving the model. So you won't need to train again to access it
+
 ------------------------------------------
 
 # Evaluation
