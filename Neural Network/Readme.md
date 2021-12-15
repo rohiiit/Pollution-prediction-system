@@ -39,4 +39,9 @@ If are looking to use the pretrained model, simply download the above 2 models a
 Like in the previous step, upload the model in a folder and change the data_dir. 
 
 
+Your pre-trained models should have a DATA_DIR as 
+- `/content/drive/MyDrive/'your_path'/Models/Carbon`
+- `/content/drive/MyDrive/'your_path'/Models/Benzene`
+- `/content/drive/MyDrive/'your_path'/Models/Nitrogen`
+
 
