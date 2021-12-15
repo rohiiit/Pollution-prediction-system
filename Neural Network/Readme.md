@@ -26,14 +26,17 @@ Why did we need to mount it on drive? Well the program is saving the model. So y
 After mounting it on drive, 
 - create a folder in google drive, upload the training and testing files.
 - update the *DATA_DIR* in the second cell to your folder path 
-- eg * `DATA_DIR = '/content/drive/MyDrive/your_path`
+- eg * `DATA_DIR = '/content/drive/MyDrive/'your_path'`
 - Now you're all set to train the model
+
+Your models will get saved in the data_dir you just made.
 
 ------------------------------------------
 
 # Using pre-trained model
 
-
+If are looking to use the pretrained model, simply download the above 2 models and use this [drive link](https://drive.google.com/drive/folders/106KPVoYnHHfnh0ulC1D00xislzHxf1aK?usp=sharing) to get the nitrogen model
+Like in the previous step, upload the model in a folder and change the data_dir. 
 
 
 
